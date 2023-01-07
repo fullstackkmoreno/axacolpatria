@@ -25,3 +25,18 @@ D:\AxaColpatria\back-end\back-end\obj\Debug\netcoreapp2.1\back-end.AssemblyInfo.
 D:\AxaColpatria\back-end\back-end\obj\Debug\netcoreapp2.1\back-end.RazorTargetAssemblyInfo.cache
 D:\AxaColpatria\back-end\back-end\obj\Debug\netcoreapp2.1\back-end.dll
 D:\AxaColpatria\back-end\back-end\obj\Debug\netcoreapp2.1\back-end.pdb
+D:\AxaColpatria\back-end\back-end\obj\Debug\netcoreapp2.1\back-end.csprojAssemblyReference.cache
+D:\AxaColpatria\back-end - copia\back-end\obj\Debug\netcoreapp2.1\back-end.csproj.CoreCompileInputs.cache
+D:\AxaColpatria\back-end - copia\back-end\obj\Debug\netcoreapp2.1\back-end.RazorAssemblyInfo.cache
+D:\AxaColpatria\back-end - copia\back-end\obj\Debug\netcoreapp2.1\back-end.RazorAssemblyInfo.cs
+D:\AxaColpatria\back-end - copia\back-end\obj\Debug\netcoreapp2.1\back-end.AssemblyInfoInputs.cache
+D:\AxaColpatria\back-end - copia\back-end\obj\Debug\netcoreapp2.1\back-end.AssemblyInfo.cs
+D:\AxaColpatria\back-end - copia\back-end\obj\Debug\netcoreapp2.1\back-end.csprojAssemblyReference.cache
+D:\AxaColpatria\back-end - copia\back-end\bin\Debug\netcoreapp2.1\back-end.deps.json
+D:\AxaColpatria\back-end - copia\back-end\bin\Debug\netcoreapp2.1\back-end.runtimeconfig.json
+D:\AxaColpatria\back-end - copia\back-end\bin\Debug\netcoreapp2.1\back-end.runtimeconfig.dev.json
+D:\AxaColpatria\back-end - copia\back-end\bin\Debug\netcoreapp2.1\back-end.dll
+D:\AxaColpatria\back-end - copia\back-end\bin\Debug\netcoreapp2.1\back-end.pdb
+D:\AxaColpatria\back-end - copia\back-end\obj\Debug\netcoreapp2.1\back-end.RazorTargetAssemblyInfo.cache
+D:\AxaColpatria\back-end - copia\back-end\obj\Debug\netcoreapp2.1\back-end.dll
+D:\AxaColpatria\back-end - copia\back-end\obj\Debug\netcoreapp2.1\back-end.pdb

@@ -1,5 +1,6 @@
 ﻿using back_end.Data;
 using back_end.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,8 +11,9 @@ using System.Threading.Tasks;
 
 namespace back_end.Controllers
 {
-
+    [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = "Google")]
     public class PolizaController : ControllerBase
     {
         private readonly PolizaContexto _contexto;
@@ -23,16 +25,9 @@ namespace back_end.Controllers
             this._contextoParametro = contextoParametro;
         }
 
-        //[HttpGet]
-        //public async Task<ActionResult<IEnumerable<Poliza>>> Get()
-        //{
-
-        //    return await _contexto.Poliza.ToArrayAsync();
-
-        //}
-
         [HttpGet]
-        [Route("api/polizas/{id}")]
+        [Route("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Poliza>>> Get(string id)
         {
             string ciudades = _contextoParametro.Parametro.Where(x => x.Codigo.Equals(CodigoCiudadesNoPermitidas)).ToList().First(y => y.Codigo == CodigoCiudadesNoPermitidas).Valor;
